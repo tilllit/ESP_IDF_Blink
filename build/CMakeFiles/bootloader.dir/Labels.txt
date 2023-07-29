@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/Users/tillkorsmeier/Desktop/blink_copy/blink/build/CMakeFiles/bootloader
+/Users/tillkorsmeier/Desktop/blink_copy/blink/build/CMakeFiles/bootloader.rule
+/Users/tillkorsmeier/Desktop/blink_copy/blink/build/CMakeFiles/bootloader-complete.rule
+/Users/tillkorsmeier/Desktop/blink_copy/blink/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/Users/tillkorsmeier/Desktop/blink_copy/blink/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/Users/tillkorsmeier/Desktop/blink_copy/blink/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/Users/tillkorsmeier/Desktop/blink_copy/blink/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/Users/tillkorsmeier/Desktop/blink_copy/blink/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/Users/tillkorsmeier/Desktop/blink_copy/blink/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/Users/tillkorsmeier/Desktop/blink_copy/blink/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
