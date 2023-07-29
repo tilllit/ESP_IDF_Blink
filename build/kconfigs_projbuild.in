@@ -3,4 +3,4 @@ source "/Users/tillkorsmeier/esp/esp-idf/components/esp_app_format/Kconfig.projb
 source "/Users/tillkorsmeier/esp/esp-idf/components/esp_rom/Kconfig.projbuild"
 source "/Users/tillkorsmeier/esp/esp-idf/components/esptool_py/Kconfig.projbuild"
 source "/Users/tillkorsmeier/esp/esp-idf/components/partition_table/Kconfig.projbuild"
-source "/Users/tillkorsmeier/Desktop/blink_copy/blink/main/Kconfig.projbuild"
+source "/Users/tillkorsmeier/esp/ESP_IDF_Blink/main/Kconfig.projbuild"

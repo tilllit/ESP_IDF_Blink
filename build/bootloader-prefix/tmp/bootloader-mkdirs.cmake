@@ -5,18 +5,18 @@ cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
   "/Users/tillkorsmeier/esp/esp-idf/components/bootloader/subproject"
-  "/Users/tillkorsmeier/Desktop/blink_copy/blink/build/bootloader"
-  "/Users/tillkorsmeier/Desktop/blink_copy/blink/build/bootloader-prefix"
-  "/Users/tillkorsmeier/Desktop/blink_copy/blink/build/bootloader-prefix/tmp"
-  "/Users/tillkorsmeier/Desktop/blink_copy/blink/build/bootloader-prefix/src/bootloader-stamp"
-  "/Users/tillkorsmeier/Desktop/blink_copy/blink/build/bootloader-prefix/src"
-  "/Users/tillkorsmeier/Desktop/blink_copy/blink/build/bootloader-prefix/src/bootloader-stamp"
+  "/Users/tillkorsmeier/esp/ESP_IDF_Blink/build/bootloader"
+  "/Users/tillkorsmeier/esp/ESP_IDF_Blink/build/bootloader-prefix"
+  "/Users/tillkorsmeier/esp/ESP_IDF_Blink/build/bootloader-prefix/tmp"
+  "/Users/tillkorsmeier/esp/ESP_IDF_Blink/build/bootloader-prefix/src/bootloader-stamp"
+  "/Users/tillkorsmeier/esp/ESP_IDF_Blink/build/bootloader-prefix/src"
+  "/Users/tillkorsmeier/esp/ESP_IDF_Blink/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/Users/tillkorsmeier/Desktop/blink_copy/blink/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/Users/tillkorsmeier/esp/ESP_IDF_Blink/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/Users/tillkorsmeier/Desktop/blink_copy/blink/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/Users/tillkorsmeier/esp/ESP_IDF_Blink/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()

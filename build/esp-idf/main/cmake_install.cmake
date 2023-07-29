@@ -1,4 +1,4 @@
-# Install script for directory: /Users/tillkorsmeier/Desktop/blink_copy/blink/main
+# Install script for directory: /Users/tillkorsmeier/esp/ESP_IDF_Blink/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

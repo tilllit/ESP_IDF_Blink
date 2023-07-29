@@ -7,11 +7,13 @@
    CONDITIONS OF ANY KIND, either express or implied.
 */
 #include <stdio.h>
+
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 #include "driver/gpio.h"
 #include "esp_log.h"
 #include "led_strip.h"
+
 #include "sdkconfig.h"
 
 
@@ -25,7 +27,7 @@ void app_main(void)
     printf("Started\n");
 
     while (1) {
-        uint32_t delay = 10;
+        uint32_t delay = 100;
         
         gpio_set_level(4, 1);
         printf("ON \n");

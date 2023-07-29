@@ -1,4 +1,4 @@
-/* * Data converted from /Users/tillkorsmeier/Desktop/blink_copy/blink/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from /Users/tillkorsmeier/esp/ESP_IDF_Blink/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 .section .rodata.embedded
